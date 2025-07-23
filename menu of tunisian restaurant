@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>#fliflahx work</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Open+Sans&display=swap');
+
+    body {
+      margin: 0;
+      font-family: 'Open Sans', sans-serif;
+      background-color: red;
+      color: #333;
+    }
+
+    .menu-container {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+      background: black;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      border-radius: 10px;
+    }
+
+    .menu-header {
+      text-align: center;
+      font-family: 'Playfair Display', serif;
+      color: white;
+    }
+
+    .menu-header h1 {
+      margin: 0;
+      font-size: 3em;
+    }
+
+    .menu-header p {
+      font-size: 1.2em;
+      color: #777;
+    }
+
+    .section-title {
+      font-size: 1.5em;
+      margin-top: 40px;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 5px;
+      color: white;
+    }
+
+    .menu-item {
+      display: flex;
+      align-items: center;
+      padding: 15px 0;
+      border-bottom: 1px dashed #ddd;
+      color: white;
+    }
+
+    .menu-item:last-child {
+      border-bottom: none;
+    }
+
+    .item-image {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-right: 20px;
+    }
+
+    .item-details {
+      flex-grow: 1;
+    }
+
+    .item-name {
+      font-weight: bold;
+      font-size: 1.2em;
+      color: white;
+      
+    }
+
+    .item-description {
+      font-size: 0.9em;
+      color: #666;
+    }
+
+    .item-price {
+      font-weight: bold;
+      color: #444;
+    }
+
+    .item-price::before {
+      content: "";
+    }
+  </style>
+</head>
+<body>
+
+  <div class="menu-container">
+    <div class="menu-header"> 
+      <h1>name your restaurant</h1>
+      <p></p>
+    </div>
+
+    
+<div class="menu-section">
+      <div class="section-title"><h3>dishes</h3></div>
+      <div class="menu-item">
+        <img src="plat-tunisian.jpg" alt="tunisian dish" class="item-image">
+        <div class="item-details">
+          <div class="item-name">tunisian dish</div>
+          <div class="item-description">vegetables with eggs and harissa</div>
+        </div>
+        <div class="price"><strong>?</strong></div>
+      </div>
+      <div class="menu-item">
+        <img src="plat-escalope.jpeg" alt="escalope dish" class="item-image">
+        <div class="item-details">
+          <div class="item-name">escalope dish</div>
+          <div class="item-description">escalope with fries and salad</div>
+        </div>
+        <div class="price"><strong>?</strong></div>
+      </div>
+      <div class="menu-item">
+        <img src="plat-kafteji.webp" alt="kafteji dish" class="item-image">
+        <div class="item-details">
+          <div class="item-name">kafteji dish</div>
+          <div class="item-description">fried vegetables zith harissa and egg</div> 
+        </div>
+        <div class="price"><strong>?</strong></div>
+      </div>
+<div class="menu-item">
+  <img src="plat-shawarma.jpeg" alt="shawarma dish" class="item-image">
+  <div class="item-details">
+    <div class="item-name">shawarma dish</div>
+    <div class="item-description">shawarma with fried and salad</div>
+  </div>
+  <div class="price"><strong>?</strong></div>
+</div>
+<div class="menu-item">
+  <img src="plat-kabeb.webp" alt="kabeb dish" class="item-image">
+  <div class="item-details">
+    <div class="item-name">kabeb dish</div>
+    <div class="item-description">kabeb with fried and salad</div>
+
+  </div> 
+  <div class="price"><strong>?</strong></div>
+</div>
+
+  </div>
+  <div class="menu-section">
+    <div class="section-title"><h3>pizza</h3></div>
+
+    <div class="menu-item">
+      <img src="pizza thon.webp" alt="pizza thonn" class="item-image">
+      <div class="item-details">
+        <div class="item-name">pizza thonn</div>
+        
+      </div>
+      <div class="price"><strong>?</strong></div>
+     </div>
+     <div class="menu-item">
+      <img src="pizza 4fromage.webp" alt="pizza 4cheess" class="item-image">
+      <div class="item-details">
+        <div class="item-name">pizza 4 chees</div>
+      </div>
+      <div class="price"><strong>?</strong></div>
+     </div>
+     <div class="menu-item">
+      <img src="pizza napolitaine.webp" alt="napolitan pizza" class="item-image">
+      <div class="item-details">
+        <div class="item-name">napolitan pizza</div>
+      </div>
+      <div class="price">?</div>
+     </div>
+     <div class="menu-item">
+      <img src="pizza mexicana.webp" alt="pizza mexicana" class="item-image">
+      <div class="item-details">
+        <div class="item-name">mexican pizza</div>
+      </div>
+      <div class="price"><strong>?</strong></div>
+     </div>
+  </div>
+  <div class="menu-section">
+    <div class="section-title"><h3>makloub</h3></div>
+    <div class="menu-item">
+      <img src="makloub thonn.jpeg" alt="makloub thonn" class="item-image">
+      <div class="item-details">
+        <div class="item-name">makloub thonn</div>
+      </div>
+      <div class="price"><strong>?</strong></div>
+    </div>
+    <div class="menu-item">
+      <img src="makloub-escalope.webp " alt="majkloub escalope" class="item-image">
+      <div class="item-details">
+        <div class="item-name">makloub escalope</div>
+      </div>
+      <div class="price"><strong>?</strong></div>
+    </div>
+    <div class="menu-item">
+      <img src="makloub-shawarma.webp" alt="makloub shawarma" class="item-image">
+      <div class="item-details">
+        <div class="item-name">makloub shawarma</div>
+      </div>
+      <div class="price"><strong>?</strong></div>
+    </div>
+  </div>
+  <div class="menu-section">
+    <div class="section-title"><h3>sandwich</h3></div>
+    <div class="menu-item">
+      <img src="sandwic thonn.webp" alt="sandwich thonn" class="item-image">
+      <div class="item-details">
+        <div class="item-name">thonn sandwich</div>
+      </div>
+      <div class="price"><strong>?</strong></div>
+    </div>
+    <div class="menu-item">
+      <img src="sandwich escalope.webp" alt="sandwich escalope" class="item-image">
+      <div class="item-details">
+        <div class="item-name">escalope sandwich</div>
+      </div>
+        <div class="price"><strong>?</strong></div>
+  </div>
+  <div class="menu-item">
+      <img src="sandwich shawarma.webp" alt="sandwich shawarma " class="item-image">
+      <div class="item-details">
+        <div class="item-name">shawarma sandwich</div>
+  </div>
+  <div class="price"><strong>?</strong></div>
+  </div>
+  <div class="menu-item">
+      <img src="sandwich poulet.webp" alt="chicke shawarma " class="item-image">
+      <div class="item-details">
+        <div class="item-name">chicke sandwich</div>
+  </div>
+  <div class="price"><strong>?</strong></div>
+  </div>
+  <div class="menu-section">
+    <div class="section-title"><h3>couscous</h3></div>
+    <div class="menu-item">
+      <img src="couscous-shepmeet.webp" alt="couscous sheepmeet" class="item-image">
+      <div class="item-details">
+        <div class="item-name">couscous  with  sheepmeet</div>
+      </div>
+    <div class="price"><strong>?</strong></div>
+    </div>
+    <div class="menu-item">
+      <img src="couscous-osben.jpg" alt="couscous oosben" class="item-image">
+      <div class="item-details">
+        <div class="item-name">couscous with oosben</div>
+      </div>
+    <div class="price"><strong>?</strong></div>
+    </div>
+    <div class="menu-item">
+      <img src="couscous-fish.jpg" alt="couscous sheepmeet" class="item-image">
+      <div class="item-details">
+        <div class="item-name">couscous with fish</div>
+      </div>
+    <div class="price"><strong>?</strong></div>
+    </div>
+    
+  </div>
+  <div class="menu-section">
+    <div class="section-title"><h3>dessert</h3></div>
+   <div class="menu-item">
+    <img src="tiramisu.webp" alt="tiramisu" class="item-image">
+    <div class="item-details">
+      <div class="item-name">tiramisu</div>
+    </div>
+    <div class="price"><strong>?</strong></div>
+    </div>
+    <div class="menu-item">
+    <img src="sansebastien.webp" alt="sansebastien cake" class="item-image">
+    <div class="item-details">
+      <div class="item-name">san sebastian cake</div>
+    </div>
+    <div class="price"><strong>?</strong></div>
+    </div>
+    
+    <div class="menu-item">
+    <img src="ice cream.webp" alt="icecream" class="item-image">
+    <div class="item-details">
+      <div class="item-name">icecream</div>
+      <div class="item-description">one for ?</div>
+    </div>
+    <div class="price"><strong>?</strong></div>
+    </div>
+    <div class="menu-item">
+    <img src="cheescake.webp" alt="cheescake" class="item-image">
+    <div class="item-details">
+      <div class="item-name">cheescake</div>
+    </div>
+    <div class="price"><strong>?</strong></div>
+    </div>
+    <div class="menu-section">
+      <div class="section-title"><h3>coffee</h3></div>
+      <div class="menu-item">
+        <img src="expresso.webp" alt="expresso" class="item-image">
+        <div class="item-details">
+          <div class="item-name">expresso</div>
+          <div class="item-description"></div>
+        </div>
+        <div class="price">
+          <strong>?</strong>
+        </div>
+      </div>
+    </div>
+    <div class="menu-item">
+      <img src="caffe chocolat.webp" alt="chocolat coffee" class="item-image">
+      <div class="item-details">
+        <div class="item-name">chocolat coffee</div>
+         <div class="item-description"></div>
+      </div>
+      <div class="price"><strong>?</strong></div>
+       
+    </div>
+    <div class="menu-item">
+      <img src="icedcoffe.webp" alt="icedcoffe" class="item-image">
+      <div class="item-details">
+        <div class="item-name"></div>
+         <div class="item-description"></div>
+      </div>
+      <div class="price"><strong>?</strong></div>
+    </div>
+  <div class="menu-item">
+      <img src="capucccino.webp" alt="capucccino" class="item-image">
+      <div class="item-details">
+        <div class="item-name">capuccino</div>
+         <div class="item-description"></div>
+      </div>
+      <div class="price"><strong>?</strong></div>
+
+    </div>
+    <div class="menu-item">
+      <img src="capucine.jpeg" alt="capucin" class="item-image">
+      <div class="item-details">
+        <div class="item-name">capucin</div>
+         <div class="item-description">supplement sucre 0.5dt</div>
+      </div>
+      <div class="price"><strong></strong></div>
+    </div>
+    
+  </div>
+  <div class="menu-section">
+    <div class="section-title"><h3>drinks</h3></div>
+    <div class="menu-item">
+      <img src="waterhalf1.webp" alt="0.5" class="item-image">
+      <div class="item-details">
+        <div class="item-name"></div>
+      </div>
+      <div class="price"><strong></strong></div>
+    </div> 
+    <div class="menu-item">
+      <img src="waterhalf3.webp" alt="1.5" class="item-image">
+      <div class="item-details">
+        <div class="item-name"></div>
+      </div>
+      <div class="price"><strong></strong></div>
+    </div> 
+    <div class="menu-item">
+      <img src="colahalf1.webp" alt="0.5" class="item-image">
+      <div class="item-details">
+        <div class="item-name"></div>
+      </div>
+      <div class="price"><strong></strong></div>
+    </div> 
+    <div class="menu-item">
+      <img src="colahalf3.webp" alt="1.5" class="item-image">
+      <div class="item-details">
+        <div class="item-name"></div>
+      </div>
+      <div class="price"><strong></strong></div>
+    </div> 
+    <div class="menu-item">
+      <img src="Strawberry.webp" alt="Strawberry jus" class="item-image">
+      <div class="item-details">
+        <div class="item-name"></div>
+      </div>
+      <div class="price"><strong></strong></div>
+    </div> 
+    <div class="menu-item">
+      <img src="citron.jpeg" alt="lemonade" class="item-image">
+      <div class="item-details">
+        <div class="item-name">lemonade</div>
+      </div>
+      <div class="price"><strong></strong></div>
+    </div> 
+  </div>
+  
+  
+    
+  
+
+</body>
+</html>
